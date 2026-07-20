@@ -176,11 +176,13 @@ a {
   justify-content: center;
 }
 
-.hero-image svg {
+.hero-image img {
   width: 100%;
   max-width: 380px;
   height: auto;
-  filter: drop-shadow(var(--shadow));
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  object-fit: cover;
 }
 
 /* ABOUT */
